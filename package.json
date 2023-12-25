@@ -1,0 +1,16 @@
+{
+  "name": "platzi-cypress-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "cypress open --e2e --browser electron",
+    "test:headless": "cypress run --e2e --browser electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  }
+}
